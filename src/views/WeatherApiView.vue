@@ -1,6 +1,15 @@
 <template>
-    <div class="border-box w-full">
-        <h1 class="text-3xl font-bold mb-6 text-center">WeatherApi</h1>
+    <div class="container mx-auto p-4 boder-box">
+        <div class="px-5 py-2 border border-green-500 border-solid rounded-lg inline-block mb-3">
+            <p class="text-sm font-bold">Usage</p>
+            <ul class="list-image-[url('@/assets/img/check.png')] list-inside ms-2 mt-2">
+                <li>Vue 3</li>
+                <li>Goverment Open API for weather data</li>
+                <li>D3.js for Taiwan map</li>
+                <li>topojson for topogeojson to geojson</li>
+            </ul>
+        </div>
+        <h1 class="text-3xl font-bold mb-6 text-center">Weather API</h1>
         <div v-if="isLoading" class="text-center py-10">
             載入中...
         </div>

@@ -35,17 +35,23 @@ const removeTodo = (todoToRemove) => {
 }
 </script>
 <template>
-  <section class="mx-auto p-4 w-full">
+  <div class="container mx-auto p-4 boder-box">
+    <div class="px-5 py-2 border border-green-500 border-solid rounded-lg inline-block mb-3">
+      <p class="text-sm font-bold">Usage</p>
+      <ul class="list-image-[url('@/assets/img/check.png')] list-inside ms-2 mt-2">
+        <li>Vue 3</li>
+      </ul>
+    </div>
     <h2 class="text-2xl font-bold mb-4">Todo List</h2>
     <input 
       v-model="newTodo" 
       @keyup.enter="addTodo" 
       placeholder="新增待辦事項"
-      class="w-full h-10 px-3 mb-4 text-lg border-2 border-gray-300 rounded focus:outline-none focus:border-green-500 transition duration-300"
+      class="w-96 h-10 px-3 mb-4 text-lg border-2 border-gray-300 rounded focus:outline-none focus:border-green-500 transition duration-300"
     >
     <ul class="space-y-3">
       <li 
-        v-for="(todo) in sortedTodos" 
+        v-for="todo in sortedTodos" 
         :key="todo.id"
         class="flex items-center text-green-700 [counter-increment:todo]"
       >
@@ -66,5 +72,5 @@ const removeTodo = (todoToRemove) => {
         >删除</button>
       </li>
     </ul>
-  </section>
+  </div>
 </template>

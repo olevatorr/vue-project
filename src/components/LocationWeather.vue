@@ -59,10 +59,13 @@ const getElementDescription = (elementName) => {
         MinCI: '最小舒適度指數',
         MaxCI: '最大舒適度指數',
         MinT: '最低溫度',
-        MaxT: '最高溫度',
+        MaxT: '最高體感溫度',
         UVI: '紫外線指數',
         WS: '最大風速',
-        WD: '風向'
+        WD: '風向',
+        MaxAT: '最高溫',
+        WeatherDescription: '天氣概述',
+        MinAT: '最低體感溫度'
     }
     return descriptions[elementName] || elementName
 }
