@@ -11,6 +11,8 @@ import { RouterLink, RouterView } from 'vue-router'
         </RouterLink>
         <RouterLink to="/TaskControl" class="nav-link mb-2" active-class="bg-green-500 text-white">TaskControl
         </RouterLink>
+        <RouterLink to="/Exam" class="nav-link mb-2" active-class="bg-green-500 text-white">Exam
+        </RouterLink>
       </nav>
     </header>
     <RouterView class="w-4/5 box-border flex-grow-2"/>

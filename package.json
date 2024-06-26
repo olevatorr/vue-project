@@ -11,6 +11,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@codemirror/commands": "^6.6.0",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@codemirror/view": "^6.28.2",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
