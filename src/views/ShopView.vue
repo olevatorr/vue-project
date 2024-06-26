@@ -11,7 +11,8 @@
             <!-- card : 使用json外部資料渲染-->
             <div v-for="product in filteredProducts" :key="product.id"
                 class="p-3 border-box rounded-lg border border-dark-500 w-full flex flex-col">
-                <img :src="product.img" :alt="product.name" class="aspect-square overflow-hidden object-cover rounded" />
+                <img :src="product.img" :alt="product.name"
+                    class="aspect-square overflow-hidden object-cover rounded" />
                 <div>
                     <p class="mt-2 bg-teal-700 px-2 py-1 text-white rounded inline-block">{{ product.category }}</p>
                 </div>
@@ -61,7 +62,7 @@ export default {
     methods: {
         ...mapActions(useCartStore, ['addToCart']),
         fetchProducts() {
-            fetch('src/assets/json/products.json')
+            fetch(`${import.meta.env.VITE_API_URL}src/assets/json/products.json`)
                 .then((res) => res.json())
                 .then((jsonData) => {
                     console.log(jsonData);
