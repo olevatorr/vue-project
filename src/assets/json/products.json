@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Super Notebook",
+    "brand": "TechMaster",
+    "price": 999.99,
+    "img": "https://picsum.photos/id/1/500/500",
+    "category": "Electronics",
+    "stock": 50,
+    "rating": 4.5,
+    "description": "High-performance laptop suitable for work and gaming"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone X",
+    "brand": "PhonePro",
+    "price": 699.99,
+    "img": "https://picsum.photos/id/2/500/500",
+    "category": "Mobile Phones",
+    "stock": 100,
+    "rating": 4.2,
+    "description": "Latest smartphone model with AI technology"
+  },
+  {
+    "id": 3,
+    "name": "Ergonomic Office Chair",
+    "brand": "ErgoComfort",
+    "price": 249.99,
+    "img": "https://picsum.photos/id/3/500/500",
+    "category": "Furniture",
+    "stock": 30,
+    "rating": 4.8,
+    "description": "Provides ultimate comfort for your office experience"
+  },
+  {
+    "id": 4,
+    "name": "4K Ultra HD TV",
+    "brand": "VisionMax",
+    "price": 799.99,
+    "img": "https://picsum.photos/id/4/500/500",
+    "category": "Electronics",
+    "stock": 25,
+    "rating": 4.6,
+    "description": "Stunning visual experience with smart connectivity"
+  },
+  {
+    "id": 5,
+    "name": "Multifunctional Food Processor",
+    "brand": "KitchenWizard",
+    "price": 179.99,
+    "img": "https://picsum.photos/id/5/500/500",
+    "category": "Home Appliances",
+    "stock": 40,
+    "rating": 4.7,
+    "description": "All-in-one appliance to make cooking simple and fun"
+  },
+  {
+    "id": 6,
+    "name": "Wireless Noise-Cancelling Headphones",
+    "brand": "AudioPro",
+    "price": 299.99,
+    "img": "https://picsum.photos/id/6/500/500",
+    "category": "Electronics",
+    "stock": 60,
+    "rating": 4.4,
+    "description": "Immersive sound experience with long battery life"
+  },
+  {
+    "id": 7,
+    "name": "Smart Home Security Camera",
+    "brand": "SafeGuard",
+    "price": 129.99,
+    "img": "https://picsum.photos/id/7/500/500",
+    "category": "Smart Home",
+    "stock": 80,
+    "rating": 4.3,
+    "description": "HD video with night vision and two-way audio"
+  },
+  {
+    "id": 8,
+    "name": "Electric Toothbrush",
+    "brand": "DentalCare",
+    "price": 89.99,
+    "img": "https://picsum.photos/id/8/500/500",
+    "category": "Personal Care",
+    "stock": 120,
+    "rating": 4.6,
+    "description": "Advanced cleaning technology for optimal oral health"
+  },
+  {
+    "id": 9,
+    "name": "Robotic Vacuum Cleaner",
+    "brand": "CleanMaster",
+    "price": 349.99,
+    "img": "https://picsum.photos/id/9/500/500",
+    "category": "Home Appliances",
+    "stock": 35,
+    "rating": 4.5,
+    "description": "Smart navigation for effortless floor cleaning"
+  },
+  {
+    "id": 10,
+    "name": "Fitness Smartwatch",
+    "brand": "FitTech",
+    "price": 199.99,
+    "img": "https://picsum.photos/id/10/500/500",
+    "category": "Wearables",
+    "stock": 75,
+    "rating": 4.4,
+    "description": "Track your health and fitness with style"
+  },
+  {
+    "id": 11,
+    "name": "Portable Bluetooth Speaker",
+    "brand": "SoundWave",
+    "price": 79.99,
+    "img": "https://picsum.photos/id/11/500/500",
+    "category": "Electronics",
+    "stock": 90,
+    "rating": 4.2,
+    "description": "Rich sound in a compact, waterproof design"
+  },
+  {
+    "id": 12,
+    "name": "Air Purifier",
+    "brand": "FreshAir",
+    "price": 159.99,
+    "img": "https://picsum.photos/id/12/500/500",
+    "category": "Home Appliances",
+    "stock": 45,
+    "rating": 4.7,
+    "description": "HEPA filtration for cleaner, healthier air"
+  },
+  {
+    "id": 13,
+    "name": "Digital Drawing Tablet",
+    "brand": "ArtisticPro",
+    "price": 229.99,
+    "img": "https://picsum.photos/id/13/500/500",
+    "category": "Electronics",
+    "stock": 40,
+    "rating": 4.6,
+    "description": "Precision tool for digital artists and designers"
+  },
+  {
+    "id": 14,
+    "name": "Smart Door Lock",
+    "brand": "SecureHome",
+    "price": 149.99,
+    "img": "https://picsum.photos/id/14/500/500",
+    "category": "Smart Home",
+    "stock": 55,
+    "rating": 4.3,
+    "description": "Keyless entry with smartphone control"
+  },
+  {
+    "id": 15,
+    "name": "Wireless Charging Pad",
+    "brand": "PowerUp",
+    "price": 39.99,
+    "img": "https://picsum.photos/id/15/500/500",
+    "category": "Electronics",
+    "stock": 100,
+    "rating": 4.4,
+    "description": "Fast, convenient charging for compatible devices"
+  },
+  {
+    "id": 16,
+    "name": "Smart Light Bulb Set",
+    "brand": "BrightIdea",
+    "price": 59.99,
+    "img": "https://picsum.photos/id/16/500/500",
+    "category": "Smart Home",
+    "stock": 70,
+    "rating": 4.5,
+    "description": "Colorful, voice-controlled lighting for any mood"
+  },
+  {
+    "id": 17,
+    "name": "Electric Kettle",
+    "brand": "BrewMaster",
+    "price": 49.99,
+    "img": "https://picsum.photos/id/17/500/500",
+    "category": "Home Appliances",
+    "stock": 85,
+    "rating": 4.6,
+    "description": "Fast-boiling kettle with temperature control"
+  },
+  {
+    "id": 18,
+    "name": "Portable Power Bank",
+    "brand": "JuiceUp",
+    "price": 29.99,
+    "img": "https://picsum.photos/id/18/500/500",
+    "category": "Electronics",
+    "stock": 150,
+    "rating": 4.3,
+    "description": "High-capacity backup power for your devices"
+  },
+  {
+    "id": 19,
+    "name": "Wireless Gaming Mouse",
+    "brand": "GameMaster",
+    "price": 69.99,
+    "img": "https://picsum.photos/id/19/500/500",
+    "category": "Electronics",
+    "stock": 65,
+    "rating": 4.7,
+    "description": "Precision control with customizable buttons"
+  },
+  {
+    "id": 20,
+    "name": "Smart Coffee Maker",
+    "brand": "MorningBrew",
+    "price": 119.99,
+    "img": "https://picsum.photos/id/20/500/500",
+    "category": "Home Appliances",
+    "stock": 50,
+    "rating": 4.5,
+    "description": "Wi-Fi enabled for the perfect cup, every time"
+  }
+]
