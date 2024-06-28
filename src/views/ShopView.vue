@@ -62,10 +62,9 @@ export default {
     methods: {
         ...mapActions(useCartStore, ['addToCart']),
         fetchProducts() {
-            fetch(`${import.meta.env.VITE_API_URL}src/assets/json/products.json`)
+            fetch('/src/assets/json/products.json')
                 .then((res) => res.json())
                 .then((jsonData) => {
-                    console.log(jsonData);
                     this.products = jsonData;
                 })
                 .catch((error) => {
