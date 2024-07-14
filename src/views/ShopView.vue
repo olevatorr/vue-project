@@ -62,7 +62,7 @@ export default {
     methods: {
         ...mapActions(useCartStore, ['addToCart']),
         fetchProducts() {
-            fetch('/src/assets/json/products.json')
+            fetch(`${import.meta.env.BASE_URL}/products.json`)
                 .then((res) => res.json())
                 .then((jsonData) => {
                     this.products = jsonData;
