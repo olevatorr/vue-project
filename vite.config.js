@@ -6,7 +6,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
-    base: '/',
+    base: '/olevatorrVue',
     build: {
       outDir: 'dist',
       sourcemap: true,
