@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, defineExpose } from 'vue'
+import { ref, computed } from 'vue'
 
 const props = defineProps({
     locationData: {
@@ -30,7 +30,7 @@ const forecastDays = computed(() => {
         }
         return acc
     }, {})
-
+    console.log(Object.values(groupedDays));
     return Object.values(groupedDays)
 })
 
@@ -59,13 +59,14 @@ const getElementDescription = (elementName) => {
         MinCI: '最小舒適度指數',
         MaxCI: '最大舒適度指數',
         MinT: '最低溫度',
-        MaxT: '最高體感溫度',
+        MaxT: '最高溫度',
         UVI: '紫外線指數',
         WS: '最大風速',
         WD: '風向',
-        MaxAT: '最高溫',
+        MaxAT: '最高體感溫度',
         WeatherDescription: '天氣概述',
-        MinAT: '最低體感溫度'
+        MinAT: '最低體感溫度',
+        Td: '露點溫度'
     }
     return descriptions[elementName] || elementName
 }
@@ -113,22 +114,10 @@ const getAverageTemperature = (timeData) => {
     return Math.round((minT + maxT) / 2)
 }
 
-// 明確地暴露需要在模板中使用的函數
-defineExpose({
-    expandedDay,
-    forecastDays,
-    toggleExpand,
-    getWeatherIcon,
-    formatDate,
-    getElementDescription,
-    getElementValue,
-    getWeatherDescription,
-    getAverageTemperature
-})
 </script>
 
 <template>
-    <div class="w-1/2 border-box p-2">
+    <div class="w-full border-box p-2">
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
             <h2 class="text-2xl font-semibold p-4 bg-green-500 text-white">
                 {{ locationData.locationName }}
